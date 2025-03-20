@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HeatingBoard")(type "KiCad")(uri "${KIPRJMOD}/HeatingBoard.pretty")(options "")(descr "Library containing components for the Heating Board for MOD11 EE."))
+)
