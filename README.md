@@ -1,3 +1,3 @@
 # HeatingBoard
-PCB for MOD11 project
-[Schematic](HeatingBoard/HeatingBoard.pdf)
+PCB for MOD11 project, 
+[Schematic](HeatingBoard.pdf)
