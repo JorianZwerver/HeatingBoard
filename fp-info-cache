@@ -1,4 +1,4 @@
-24189321270936073
+24198034563620870
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57826,6 +57826,41 @@ AMASS_XT60-M
 0
 2
 2
+HeatingBoard
+FUSE_0PTF0078P_LTF
+
+0PTF0078P 
+0
+2
+2
+HeatingBoard
+PHOENIX_1935161
+
+
+0
+2
+2
+HeatingBoard
+PHOENIX_1935174
+
+
+0
+3
+3
+HeatingBoard
+PHOENIX_1935190
+
+
+0
+5
+5
+HeatingBoard
+PHOENIX_1935200
+
+
+0
+6
+6
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
