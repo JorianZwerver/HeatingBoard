@@ -4534,7 +4534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HeatingBoard:QRcode"
 			(at 151.13 173.99 0)
 			(effects
 				(font
