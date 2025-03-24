@@ -1,7 +1,7 @@
 (footprint "FUSE_0PTF0078P_LTF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "0PTF0078P ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0e70bd02-3499-4313-92e5-cb9cc42ceefb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -279,7 +267,8 @@
 		(remove_unused_layers no)
 		(uuid "a741caa6-6cc0-4ec2-b042-39d9331ea03d")
 	)
-	(model "C:/Users/joria/Downloads/696108003002 (rev1).stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HeatingBoard3D/696108003002 (rev1).stp"
 		(offset
 			(xyz 11.25 -4.75 0)
 		)

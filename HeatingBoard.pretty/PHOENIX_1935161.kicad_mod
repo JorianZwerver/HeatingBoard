@@ -1,7 +1,7 @@
 (footprint "PHOENIX_1935161"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 3.175 -9.385 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a1316c79-9c5c-4510-8097-81791ed0c918")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -109,7 +97,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9805b57f-1ce8-4ad7-a2ec-79627eff1de7")
 	)
@@ -200,7 +188,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b6bce5c2-2b23-426e-a811-930ddf356762")
 	)
@@ -222,7 +210,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "6069a22d-3647-48bc-a6fd-794817100eb3")
 	)
-	(model "C:/Users/joria/Downloads/1935161/1935161.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HeatingBoard3D/1935161/1935161.step"
 		(offset
 			(xyz 0 0 0)
 		)
