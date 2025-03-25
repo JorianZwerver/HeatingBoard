@@ -1871,7 +1871,7 @@
 	)
 	(text "BACKUP REGULATOR (DNP)\n"
 		(exclude_from_sim no)
-		(at 254 135.89 0)
+		(at 254 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,6 +1888,26 @@
 			)
 		)
 		(uuid "fbc442dc-ae74-4191-ba25-0e8f9402ca00")
+	)
+	(text_box "This regulator is not needed. Will only be placed in case this board needs to be self-sufficient."
+		(exclude_from_sim no)
+		(at 241.3 128.27 0)
+		(size 40.64 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bb4eca71-4ad9-423e-8fe3-47928b62ea46")
 	)
 	(junction
 		(at 97.79 60.96)
@@ -4534,7 +4554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HeatingBoard:QRcode"
 			(at 151.13 173.99 0)
 			(effects
 				(font

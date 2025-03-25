@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|134700000|108800000|5cfdfdbc-19b0-48a4-ad61-d8fd88e5d87f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|135700000|97874000|aa25ced7-3c6c-40bb-a66c-8d82f1d4973a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|135800000|86874000|40b72d72-1f46-4e01-b9de-5164e389dbd4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|144400000|124100000|03fcf67e-3899-42cd-a448-bf4759e88d83|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|167600000|118548008|57af7386-61c8-4930-8f15-f2f9b648ca9c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168151991|118000000|ad611c4a-bf1a-45fb-8d78-de455e4840ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|148975000|119165000|4c7a3af9-88fc-4bcf-9d41-a107e8090a47|fc8057b1-95ac-46dc-bde1-41a93c466706|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|148975000|86065000|4c7a3af9-88fc-4bcf-9d41-a107e8090a47|49422b44-736c-45e7-b341-c830d4b112f8|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|148975000|96965000|4c7a3af9-88fc-4bcf-9d41-a107e8090a47|bef678ad-3578-4881-a885-62a7913cb352|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|149075000|108065000|4c7a3af9-88fc-4bcf-9d41-a107e8090a47|2db7dbd8-12af-4311-b8b2-96e15195a38d|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -100,12 +141,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
