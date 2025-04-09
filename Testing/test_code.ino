@@ -38,14 +38,14 @@ void setup() {
     for(int i = 0; i < CHANNELS_LENGTH; i++) {
 
         if(!channels[i].begin()) {
-        Serial.print("Could not connect to INA219, channel ");
-        Serial.print(i);
-        Serial.println("!");
-        while(1){delay(10);}
+            Serial.print("Could not connect to INA219, channel ");
+            Serial.print(i);
+            Serial.println("!");
+            while(1){delay(10);}
         }
 
         // Set current shunt values and sensor parameters
-        channels[i].setMaxCurrentShunt(0.4, 0.1);
+        channels[i].setMaxCurrentShunt(1.0, 0.1);
         channels[i].setShuntResolution(12);
         channels[i].setShuntSamples(7);
     }
